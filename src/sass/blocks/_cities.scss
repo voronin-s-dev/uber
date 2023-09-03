@@ -1,0 +1,18 @@
+.cities {
+  .container {
+    padding: 45px 0 22px 0;
+  }
+  height: 716px;
+  text-align: center;
+  background: #080816;
+  &__bg {
+    background: url(../img/world_bg.jpg) center (center / cover) no-repeat;
+  }
+  &__look {
+    display: block;
+    margin-top: 455px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

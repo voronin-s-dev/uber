@@ -1,0 +1,97 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/bootstrap-grid.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
+
+@import "base/variables";
+@import "base/mixins";
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.label {
+  position: relative;
+  margin: 0 auto;
+  width: 115px;
+  height: 27px;
+  z-index: 5;
+
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.title {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  z-index: 5;
+
+  color: #222;
+}
+
+.subtitle {
+  position: relative;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  z-index: 5;
+
+  color: #222;
+}
+
+.label_white {
+  background-color: #fff;
+  color: #000;
+}
+
+.white {
+  color: #fff;
+}
+
+.btns {
+  border-style: hidden;
+  border-radius: 4px;
+  background: $main-color;
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  text-transform: uppercase;
+
+  color: #fff;
+  -webkit-text-stroke: 1px #00000018;
+  transition: all 0.35s;
+  &:hover {
+    background: #21b9d8;
+    text-shadow: rgba(0, 0, 0, 0.434) 1px 0 8px;
+  }
+}
+
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/advantages";
+@import "blocks/mobile";
+@import "blocks/choice";
+@import "blocks/require";
+@import "blocks/cities";
+@import "blocks/footer";
+@import "blocks/media";

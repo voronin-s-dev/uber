@@ -1,0 +1,37 @@
+.choice {
+  padding: 45px 0 137px 0;
+  position: relative;
+  min-height: 895px;
+
+  background: url(../img/mobile/mobile_bg.png) center (center / cover) no-repeat;
+
+  &__img {
+    margin: 56px auto 0 auto;
+
+    position: relative;
+    display: block;
+
+    z-index: 5;
+  }
+
+  &__text {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+
+    color: #222222;
+  }
+
+  .black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 499px;
+    width: 100%;
+
+    z-index: 1;
+
+    background-color: #070716;
+  }
+}
